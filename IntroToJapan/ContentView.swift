@@ -8,10 +8,44 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    
+    
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            
+            List {
+                HStack{Image("Flag").resizable().frame(width: 50, height: 50)
+                    
+                    NavigationLink(destination: Intro()) {
+                        Text("Introduction")
+                        
+                    }
+                    
+                }
+                
+                
+                HStack{
+                    Image("Hokkaido").resizable().frame(width: 50, height: 50)
+                    
+                    NavigationLink(destination: Hokkaido()) {
+                        Text("Hokkaido")
+                    }
+                }
+                
+                HStack {
+                    Image("Aomori").resizable().frame(width: 50, height: 50)
+                    NavigationLink(destination: Aomori()) {
+                        Text("Aomori")
+                    }
+                    
+                }
+            }.navigationBarTitle("Japan")
+        }
+        
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

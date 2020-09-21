@@ -13,6 +13,9 @@
 		DA1E1F8225194AFB00770575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1E1F8125194AFB00770575 /* Assets.xcassets */; };
 		DA1E1F8525194AFB00770575 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1E1F8425194AFB00770575 /* Preview Assets.xcassets */; };
 		DA1E1F8825194AFB00770575 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1E1F8625194AFB00770575 /* LaunchScreen.storyboard */; };
+		DA1E1F9025194B1D00770575 /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E1F8F25194B1D00770575 /* Intro.swift */; };
+		DA1E1F9225194B3700770575 /* Hokkaido.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E1F9125194B3700770575 /* Hokkaido.swift */; };
+		DA1E1F9425194C0100770575 /* Aomori.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E1F9325194C0100770575 /* Aomori.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		DA1E1F8425194AFB00770575 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DA1E1F8725194AFB00770575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA1E1F8925194AFB00770575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1E1F8F25194B1D00770575 /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
+		DA1E1F9125194B3700770575 /* Hokkaido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hokkaido.swift; sourceTree = "<group>"; };
+		DA1E1F9325194C0100770575 /* Aomori.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aomori.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,9 @@
 			isa = PBXGroup;
 			children = (
 				DA1E1F8425194AFB00770575 /* Preview Assets.xcassets */,
+				DA1E1F8F25194B1D00770575 /* Intro.swift */,
+				DA1E1F9125194B3700770575 /* Hokkaido.swift */,
+				DA1E1F9325194C0100770575 /* Aomori.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -148,7 +157,10 @@
 			files = (
 				DA1E1F7C25194AF600770575 /* AppDelegate.swift in Sources */,
 				DA1E1F7E25194AF600770575 /* SceneDelegate.swift in Sources */,
+				DA1E1F9025194B1D00770575 /* Intro.swift in Sources */,
 				DA1E1F8025194AF600770575 /* ContentView.swift in Sources */,
+				DA1E1F9425194C0100770575 /* Aomori.swift in Sources */,
+				DA1E1F9225194B3700770575 /* Hokkaido.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

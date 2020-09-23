@@ -10,12 +10,27 @@ import SwiftUI
 
 struct Hokkaido: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView{
+            VStack{
+            Text("Hokkaido")
+                .font(.largeTitle)
+            Image("Hokkaido").resizable().scaledToFit()
+
+            Text("Hokkaido is the second largest island of Japan")
+            
+            Image("strait").resizable().scaledToFit()
+            Text("The Tsugaru Strait separates Hokkaido from Honshu, and the two islands are connected by the undersea railway Seikan Tunnel. ")
+            Image("Seal").resizable().frame(width: 100, height: 100)
+            Text("This is a photo of the gouvernment Seal which i find pretty cool")
+            
+            }
+        }
     }
 }
 
-struct Hokkaido_Previews: PreviewProvider {
+struct Previews: PreviewProvider {
     static var previews: some View {
-        Hokkaido()
+        Intro()
     }
 }
+
